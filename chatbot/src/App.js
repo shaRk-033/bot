@@ -37,6 +37,32 @@ function App() {
     setDarkMode(!darkMode);
   };
 
+  const renderMessage = (message) => {
+    const paragraphs = message.text.split('\n');
+    return (
+      <div className={`message ${message.sender}`}>
+        {paragraphs.map((paragraph, index) => {
+          if (paragraph.includes(':')) {
+            const [key, value] = paragraph.split(':');
+            return (
+              <p key={index}>
+                <strong>{key.trim()}:</strong> {value.trim()}
+              </p>
+            );
+          } else if (paragraph.startsWith('*')) {
+            return (
+              <p key={index} className="list-item">
+                {paragraph}
+              </p>
+            );
+          } else {
+            return <p key={index}>{paragraph}</p>;
+          }
+        })}
+      </div>
+    );
+  };
+
   return (
     <div className={`App ${darkMode ? 'dark-mode' : 'light-mode'}`}>
       <div className="chat-container">
@@ -47,11 +73,7 @@ function App() {
           </button>
         </div>
         <div className="chat-messages">
-          {messages.map((message, index) => (
-            <div key={index} className={`message ${message.sender}`}>
-              {message.text}
-            </div>
-          ))}
+          {messages.map((message, index) => renderMessage(message))}
         </div>
         <div className="chat-input">
           <input
