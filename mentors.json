@@ -4,7 +4,7 @@
     "email": "alice.johnson@example.com",
     "yearsOfExperience": 8,
     "domain": "Web Development",
-    "role": "Senior Frontend Developer",
+    "role": "Senior Software Developer",
     "description": "Experienced in React and Vue.js, passionate about creating responsive and accessible web applications.",
     "availableForMentoring": true,
     "rating": 4.8
@@ -14,7 +14,7 @@
     "email": "bob.smith@example.com",
     "yearsOfExperience": 12,
     "domain": "Backend Development",
-    "role": "Lead Software Engineer",
+    "role": "Senior Software Developer",
     "description": "Specializes in scalable microservices architecture using Node.js and Python.",
     "availableForMentoring": true,
     "rating": 4.9
@@ -27,15 +27,15 @@
     "role": "iOS Developer",
     "description": "Expert in Swift and iOS app development, with a focus on performance optimization.",
     "availableForMentoring": false,
-    "rating": 2.7
+    "rating": 4.7
   },
   {
     "name": "David Wilson",
     "email": "david.wilson@example.com",
     "yearsOfExperience": 15,
-    "domain": "Data Science",
-    "role": "Senior Data Scientist",
-    "description": "Experienced in machine learning and big data analytics using Python and R.",
+    "domain": "Full Stack Development",
+    "role": "Full Stack Developer",
+    "description": "Experienced in MEAN stack and cloud technologies, with a passion for building scalable web applications.",
     "availableForMentoring": true,
     "rating": 4.9
   },
@@ -48,5 +48,155 @@
     "description": "Specializes in CI/CD pipelines, containerization, and cloud infrastructure management.",
     "availableForMentoring": true,
     "rating": 4.6
+  },
+  {
+    "name": "Frank Lee",
+    "email": "frank.lee@example.com",
+    "yearsOfExperience": 9,
+    "domain": "Full Stack Development",
+    "role": "Full Stack Developer",
+    "description": "Proficient in MERN stack and serverless architectures, focusing on building efficient and scalable applications.",
+    "availableForMentoring": true,
+    "rating": 4.7
+  },
+  {
+    "name": "Grace Chen",
+    "email": "grace.chen@example.com",
+    "yearsOfExperience": 11,
+    "domain": "Backend Development",
+    "role": "Senior Software Developer",
+    "description": "Expertise in Java and Spring Boot, focusing on building robust and scalable backend systems.",
+    "availableForMentoring": true,
+    "rating": 4.8
+  },
+  {
+    "name": "Henry Taylor",
+    "email": "henry.taylor@example.com",
+    "yearsOfExperience": 5,
+    "domain": "Mobile Development",
+    "role": "Android Developer",
+    "description": "Passionate about Kotlin and Android app development, with experience in material design principles.",
+    "availableForMentoring": true,
+    "rating": 4.5
+  },
+  {
+    "name": "Irene Garcia",
+    "email": "irene.garcia@example.com",
+    "yearsOfExperience": 11,
+    "domain": "Data Science",
+    "role": "Senior Data Scientist",
+    "description": "Specializes in natural language processing and computer vision using TensorFlow and PyTorch.",
+    "availableForMentoring": false,
+    "rating": 4.9
+  },
+  {
+    "name": "Jack Robinson",
+    "email": "jack.robinson@example.com",
+    "yearsOfExperience": 8,
+    "domain": "DevOps",
+    "role": "DevOps Engineer",
+    "description": "Expert in Kubernetes, Terraform, and AWS, focusing on automating infrastructure and deployments.",
+    "availableForMentoring": true,
+    "rating": 4.7
+  },
+  {
+    "name": "Karen White",
+    "email": "karen.white@example.com",
+    "yearsOfExperience": 6,
+    "domain": "Web Development",
+    "role": "UX/UI Designer",
+    "description": "Passionate about creating user-centered designs and improving overall user experience.",
+    "availableForMentoring": true,
+    "rating": 4.6
+  },
+  {
+    "name": "Liam Parker",
+    "email": "liam.parker@example.com",
+    "yearsOfExperience": 9,
+    "domain": "Backend Development",
+    "role": "Database Administrator",
+    "description": "Expertise in optimizing database performance and designing efficient data models.",
+    "availableForMentoring": false,
+    "rating": 4.8
+  },
+  {
+    "name": "Mia Thompson",
+    "email": "mia.thompson@example.com",
+    "yearsOfExperience": 7,
+    "domain": "Full Stack Development",
+    "role": "Full Stack Developer",
+    "description": "Skilled in React, Node.js, and MongoDB, specializing in building responsive and scalable web applications.",
+    "availableForMentoring": true,
+    "rating": 4.5
+  },
+  {
+    "name": "Nathan Harris",
+    "email": "nathan.harris@example.com",
+    "yearsOfExperience": 10,
+    "domain": "Data Science",
+    "role": "Machine Learning Engineer",
+    "description": "Specializes in developing and deploying machine learning models at scale.",
+    "availableForMentoring": true,
+    "rating": 4.9
+  },
+  {
+    "name": "Olivia Martinez",
+    "email": "olivia.martinez@example.com",
+    "yearsOfExperience": 8,
+    "domain": "DevOps",
+    "role": "Site Reliability Engineer",
+    "description": "Focuses on maintaining high availability and performance of large-scale systems.",
+    "availableForMentoring": true,
+    "rating": 4.7
+  },
+  {
+    "name": "Paul Anderson",
+    "email": "paul.anderson@example.com",
+    "yearsOfExperience": 15,
+    "domain": "Full Stack Development",
+    "role": "Full Stack Developer",
+    "description": "Experienced in both frontend and backend technologies, specializing in MEAN and MERN stacks.",
+    "availableForMentoring": true,
+    "rating": 4.9
+  },
+  {
+    "name": "Quinn Foster",
+    "email": "quinn.foster@example.com",
+    "yearsOfExperience": 6,
+    "domain": "Backend Development",
+    "role": "API Developer",
+    "description": "Expert in designing and implementing RESTful and GraphQL APIs for various applications.",
+    "availableForMentoring": true,
+    "rating": 4.6
+  },
+  {
+    "name": "Rachel Kim",
+    "email": "rachel.kim@example.com",
+    "yearsOfExperience": 9,
+    "domain": "Mobile Development",
+    "role": "Mobile UI/UX Designer",
+    "description": "Specializes in creating intuitive and visually appealing interfaces for mobile applications.",
+    "availableForMentoring": false,
+    "rating": 4.8
+  },
+  {
+    "name": "Samuel Green",
+    "email": "samuel.green@example.com",
+    "yearsOfExperience": 11,
+    "domain": "Data Science",
+    "role": "Data Engineer",
+    "description": "Experienced in building and maintaining data pipelines and data warehouses.",
+    "availableForMentoring": true,
+    "rating": 4.7
+  },
+  {
+    "name": "Tina Nelson",
+    "email": "tina.nelson@example.com",
+    "yearsOfExperience": 7,
+    "domain": "DevOps",
+    "role": "Cloud Architect",
+    "description": "Expertise in designing and implementing cloud-native solutions across multiple platforms.",
+    "availableForMentoring": true,
+    "rating": 4.8
   }
 ]
