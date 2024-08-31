@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "66d2ad4a994200f134b1fc12"
+  },
+  "company": "Qualcomm",
+  "title": "Software Developer",
+  "salary": "100000 ",
+  "jobDescription": "dfhgjkllfjkzcbxjkbvfzdcklhxbkzfbcxjbzdxjhbzxc jbjx bixv",
+  "deadline": {
+    "$date": "2024-09-10T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d2ad64994200f134b1fc14"
+  },
+  "company": "Servicenow",
+  "title": "Software Developer",
+  "salary": "300000 ",
+  "jobDescription": "dfhgjkllfjkzcbxjkbvfzdcklhxbkzfbcxjbzdxjhbzxc jbjx bixv",
+  "deadline": {
+    "$date": "2024-09-19T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d2ad92994200f134b1fc16"
+  },
+  "company": "Microsoft",
+  "title": "Testing",
+  "salary": "300000 ",
+  "jobDescription": "dfhgjkllfjkzcbxjkbvfzdcklhxbkzfbcxjbzdxjhbzxc jbjx bixv",
+  "deadline": {
+    "$date": "2024-09-19T00:00:00.000Z"
+  },
+  "__v": 0
+}]
